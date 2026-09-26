@@ -1,0 +1,52 @@
+[package]
+name = "polyxor"
+version = "0.1.0"
+authors = ["Orson Peters <orsonpeters@gmail.com>"]
+license = "Zlib"
+repository = "https://github.com/orlp/polyxor"
+readme = "README.md"
+keywords = ["hash", "hasher", "no-std"]
+categories = ["algorithms", "no-std"]
+description = "A fast, 128-bit universal hashing algorithm."
+
+edition = "2024"
+rust-version = "1.95"
+exclude = ["benches", "tools", "assets", "proofs"]
+
+[dependencies]
+aes = { version = "0.9.3", optional = true }
+zeroize = { version = "1.8", optional = true, default-features = false }
+
+[features]
+aes = ["dep:aes"]
+std = []
+runtime_detection = ["std"]
+zeroize = ["dep:zeroize", "aes?/zeroize"]
+
+default = ["aes", "std", "runtime_detection"]
+
+[package.metadata.docs.rs]
+all-features = true
+
+[[bench]]
+name = "speed"
+harness = false
+required-features = ["aes"]
+
+[dev-dependencies]
+aegis = "0.9.20"
+ahash = "0.8.12"
+blake3 = "1.8.7"
+crc-fast = "1.10.0"
+foldhash = "0.2.0"
+getrandom = "0.4.3"
+poly1305 = "0.9.1"
+polymur-hash = "0.2.3"
+polyval = "0.7.3"
+rapidhash = "4.5.1"
+sha1 = "0.11.0"
+siphasher = "1.0.4"
+twox-hash = "2.1.4"
+
+[profile.release]
+lto = "thin"

@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 746 520" width="746" height="520">
+<style>
+  .bg { fill: #ffffff; }
+  .lbl { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, "DejaVu Sans Mono", monospace; }
+  .out { font-size: 22px; font-weight: 700; fill: #1f2328; }
+  .w { font-size: 14px; font-weight: 600; fill: #1f2328; }
+  .ref { fill: #f6f8fa; stroke: #8c959f; stroke-width: 1.2; }
+  .idle { fill: #eef0f3; stroke: #d0d4da; stroke-width: 1; }
+  .blue-a { fill: #2a78d6; stroke: #2a78d6; stroke-width: 2; }
+  .blue-b { fill: #e3eefb; stroke: #2a78d6; stroke-width: 2; }
+  .orange-a { fill: #c9521c; stroke: #c9521c; stroke-width: 2; }
+  .orange-b { fill: #fcebe2; stroke: #c9521c; stroke-width: 2; }
+  .op { stroke: #57606a; stroke-width: 1.6; fill: none; }
+  .dot { fill: #57606a; }
+  .grp { fill: none; stroke: #9aa1a9; stroke-width: 1.2; }
+  .sep { stroke: #d0d7de; stroke-width: 1.2; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #0d1117; }
+    .out, .w { fill: #e6edf3; }
+    .ref { fill: #161b22; stroke: #6e7681; }
+    .idle { fill: #1c2128; stroke: #30363d; }
+    .blue-a { fill: #3d8ae8; stroke: #3d8ae8; }
+    .blue-b { fill: #13263f; stroke: #5b9dec; }
+    .orange-a { fill: #d9642c; stroke: #d9642c; }
+    .orange-b { fill: #3a1f12; stroke: #ee8250; }
+    .op { stroke: #9ea7b0; }
+    .dot { fill: #9ea7b0; }
+    .grp { stroke: #6e7681; }
+    .sep { stroke: #30363d; }
+  }
+</style>
+<g id="ha">
+<text class="lbl out" x="98.5" y="42" text-anchor="middle">ha</text>
+<rect class="blue-a" x="31.0" y="57.0" width="30" height="30" rx="4"/>
+<rect class="orange-a" x="66.0" y="57.0" width="30" height="30" rx="4"/>
+<rect class="idle" x="100.5" y="56.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="135.5" y="56.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="30.5" y="91.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="65.5" y="91.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="100.5" y="91.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="135.5" y="91.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="30.5" y="126.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="65.5" y="126.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="100.5" y="126.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="135.5" y="126.5" width="31" height="31" rx="4"/>
+<rect class="blue-b" x="31.0" y="162.0" width="30" height="30" rx="4"/>
+<rect class="orange-b" x="66.0" y="162.0" width="30" height="30" rx="4"/>
+<rect class="idle" x="100.5" y="161.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="135.5" y="161.5" width="31" height="31" rx="4"/>
+<rect class="blue-a" x="34.5" y="218.0" width="14" height="14" rx="2.5"/>
+<circle class="dot" cx="57.5" cy="225.0" r="2.8"/>
+<rect class="blue-b" x="66.5" y="218.0" width="14" height="14" rx="2.5"/>
+<circle class="op" cx="98.5" cy="225.0" r="5.5"/><path class="op" d="M93.0 225.0H104.0M98.5 219.5V230.5"/>
+<rect class="orange-a" x="116.5" y="218.0" width="14" height="14" rx="2.5"/>
+<circle class="dot" cx="139.5" cy="225.0" r="2.8"/>
+<rect class="orange-b" x="148.5" y="218.0" width="14" height="14" rx="2.5"/>
+</g>
+<g id="hb">
+<text class="lbl out" x="281.5" y="42" text-anchor="middle">hb</text>
+<rect class="idle" x="213.5" y="56.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="248.5" y="56.5" width="31" height="31" rx="4"/>
+<rect class="blue-a" x="284.0" y="57.0" width="30" height="30" rx="4"/>
+<rect class="orange-a" x="319.0" y="57.0" width="30" height="30" rx="4"/>
+<rect class="idle" x="213.5" y="91.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="248.5" y="91.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="283.5" y="91.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="318.5" y="91.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="213.5" y="126.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="248.5" y="126.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="283.5" y="126.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="318.5" y="126.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="213.5" y="161.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="248.5" y="161.5" width="31" height="31" rx="4"/>
+<rect class="blue-b" x="284.0" y="162.0" width="30" height="30" rx="4"/>
+<rect class="orange-b" x="319.0" y="162.0" width="30" height="30" rx="4"/>
+<rect class="blue-a" x="217.5" y="218.0" width="14" height="14" rx="2.5"/>
+<circle class="dot" cx="240.5" cy="225.0" r="2.8"/>
+<rect class="blue-b" x="249.5" y="218.0" width="14" height="14" rx="2.5"/>
+<circle class="op" cx="281.5" cy="225.0" r="5.5"/><path class="op" d="M276.0 225.0H287.0M281.5 219.5V230.5"/>
+<rect class="orange-a" x="299.5" y="218.0" width="14" height="14" rx="2.5"/>
+<circle class="dot" cx="322.5" cy="225.0" r="2.8"/>
+<rect class="orange-b" x="331.5" y="218.0" width="14" height="14" rx="2.5"/>
+</g>
+<g id="hc">
+<text class="lbl out" x="464.5" y="42" text-anchor="middle">hc</text>
+<rect class="idle" x="396.5" y="56.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="431.5" y="56.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="466.5" y="56.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="501.5" y="56.5" width="31" height="31" rx="4"/>
+<rect class="blue-b" x="397.0" y="92.0" width="30" height="30" rx="4"/>
+<rect class="orange-b" x="432.0" y="92.0" width="30" height="30" rx="4"/>
+<rect class="idle" x="466.5" y="91.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="501.5" y="91.5" width="31" height="31" rx="4"/>
+<rect class="blue-a" x="397.0" y="127.0" width="30" height="30" rx="4"/>
+<rect class="orange-a" x="432.0" y="127.0" width="30" height="30" rx="4"/>
+<rect class="idle" x="466.5" y="126.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="501.5" y="126.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="396.5" y="161.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="431.5" y="161.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="466.5" y="161.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="501.5" y="161.5" width="31" height="31" rx="4"/>
+<rect class="blue-a" x="400.5" y="218.0" width="14" height="14" rx="2.5"/>
+<circle class="dot" cx="423.5" cy="225.0" r="2.8"/>
+<rect class="blue-b" x="432.5" y="218.0" width="14" height="14" rx="2.5"/>
+<circle class="op" cx="464.5" cy="225.0" r="5.5"/><path class="op" d="M459.0 225.0H470.0M464.5 219.5V230.5"/>
+<rect class="orange-a" x="482.5" y="218.0" width="14" height="14" rx="2.5"/>
+<circle class="dot" cx="505.5" cy="225.0" r="2.8"/>
+<rect class="orange-b" x="514.5" y="218.0" width="14" height="14" rx="2.5"/>
+</g>
+<g id="hd">
+<text class="lbl out" x="647.5" y="42" text-anchor="middle">hd</text>
+<rect class="idle" x="579.5" y="56.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="614.5" y="56.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="649.5" y="56.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="684.5" y="56.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="579.5" y="91.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="614.5" y="91.5" width="31" height="31" rx="4"/>
+<rect class="blue-b" x="650.0" y="92.0" width="30" height="30" rx="4"/>
+<rect class="orange-b" x="685.0" y="92.0" width="30" height="30" rx="4"/>
+<rect class="idle" x="579.5" y="126.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="614.5" y="126.5" width="31" height="31" rx="4"/>
+<rect class="blue-a" x="650.0" y="127.0" width="30" height="30" rx="4"/>
+<rect class="orange-a" x="685.0" y="127.0" width="30" height="30" rx="4"/>
+<rect class="idle" x="579.5" y="161.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="614.5" y="161.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="649.5" y="161.5" width="31" height="31" rx="4"/>
+<rect class="idle" x="684.5" y="161.5" width="31" height="31" rx="4"/>
+<rect class="blue-a" x="583.5" y="218.0" width="14" height="14" rx="2.5"/>
+<circle class="dot" cx="606.5" cy="225.0" r="2.8"/>
+<rect class="blue-b" x="615.5" y="218.0" width="14" height="14" rx="2.5"/>
+<circle class="op" cx="647.5" cy="225.0" r="5.5"/><path class="op" d="M642.0 225.0H653.0M647.5 219.5V230.5"/>
+<rect class="orange-a" x="665.5" y="218.0" width="14" height="14" rx="2.5"/>
+<circle class="dot" cx="688.5" cy="225.0" r="2.8"/>
+<rect class="orange-b" x="697.5" y="218.0" width="14" height="14" rx="2.5"/>
+</g>
+<g id="he">
+<text class="lbl out" x="373.0" y="301" text-anchor="middle">he</text>
+<rect class="blue-a" x="305.5" y="316.0" width="30" height="30" rx="4"/>
+<rect class="orange-a" x="340.5" y="316.0" width="30" height="30" rx="4"/>
+<rect class="blue-a" x="375.5" y="316.0" width="30" height="30" rx="4"/>
+<rect class="orange-a" x="410.5" y="316.0" width="30" height="30" rx="4"/>
+<rect class="blue-b" x="305.5" y="351.0" width="30" height="30" rx="4"/>
+<rect class="orange-b" x="340.5" y="351.0" width="30" height="30" rx="4"/>
+<rect class="blue-b" x="375.5" y="351.0" width="30" height="30" rx="4"/>
+<rect class="orange-b" x="410.5" y="351.0" width="30" height="30" rx="4"/>
+<rect class="blue-a" x="305.5" y="386.0" width="30" height="30" rx="4"/>
+<rect class="orange-a" x="340.5" y="386.0" width="30" height="30" rx="4"/>
+<rect class="blue-a" x="375.5" y="386.0" width="30" height="30" rx="4"/>
+<rect class="orange-a" x="410.5" y="386.0" width="30" height="30" rx="4"/>
+<rect class="blue-b" x="305.5" y="421.0" width="30" height="30" rx="4"/>
+<rect class="orange-b" x="340.5" y="421.0" width="30" height="30" rx="4"/>
+<rect class="blue-b" x="375.5" y="421.0" width="30" height="30" rx="4"/>
+<rect class="orange-b" x="410.5" y="421.0" width="30" height="30" rx="4"/>
+<rect class="grp" x="85.0" y="472.0" width="126.0" height="24" rx="6"/>
+<rect class="blue-a" x="90.0" y="477.0" width="14" height="14" rx="2.5"/>
+<circle class="op" cx="114.0" cy="484.0" r="4.2"/><path class="op" d="M109.8 484.0H118.2M114.0 479.8V488.2"/>
+<rect class="blue-a" x="124.0" y="477.0" width="14" height="14" rx="2.5"/>
+<circle class="op" cx="148.0" cy="484.0" r="4.2"/><path class="op" d="M143.8 484.0H152.2M148.0 479.8V488.2"/>
+<rect class="blue-a" x="158.0" y="477.0" width="14" height="14" rx="2.5"/>
+<circle class="op" cx="182.0" cy="484.0" r="4.2"/><path class="op" d="M177.8 484.0H186.2M182.0 479.8V488.2"/>
+<rect class="blue-a" x="192.0" y="477.0" width="14" height="14" rx="2.5"/>
+<circle class="dot" cx="220.0" cy="484.0" r="2.8"/>
+<rect class="grp" x="229.0" y="472.0" width="126.0" height="24" rx="6"/>
+<rect class="blue-b" x="234.0" y="477.0" width="14" height="14" rx="2.5"/>
+<circle class="op" cx="258.0" cy="484.0" r="4.2"/><path class="op" d="M253.8 484.0H262.2M258.0 479.8V488.2"/>
+<rect class="blue-b" x="268.0" y="477.0" width="14" height="14" rx="2.5"/>
+<circle class="op" cx="292.0" cy="484.0" r="4.2"/><path class="op" d="M287.8 484.0H296.2M292.0 479.8V488.2"/>
+<rect class="blue-b" x="302.0" y="477.0" width="14" height="14" rx="2.5"/>
+<circle class="op" cx="326.0" cy="484.0" r="4.2"/><path class="op" d="M321.8 484.0H330.2M326.0 479.8V488.2"/>
+<rect class="blue-b" x="336.0" y="477.0" width="14" height="14" rx="2.5"/>
+<circle class="op" cx="373.0" cy="484.0" r="5.5"/><path class="op" d="M367.5 484.0H378.5M373.0 478.5V489.5"/>
+<rect class="grp" x="391.0" y="472.0" width="126.0" height="24" rx="6"/>
+<rect class="orange-a" x="396.0" y="477.0" width="14" height="14" rx="2.5"/>
+<circle class="op" cx="420.0" cy="484.0" r="4.2"/><path class="op" d="M415.8 484.0H424.2M420.0 479.8V488.2"/>
+<rect class="orange-a" x="430.0" y="477.0" width="14" height="14" rx="2.5"/>
+<circle class="op" cx="454.0" cy="484.0" r="4.2"/><path class="op" d="M449.8 484.0H458.2M454.0 479.8V488.2"/>
+<rect class="orange-a" x="464.0" y="477.0" width="14" height="14" rx="2.5"/>
+<circle class="op" cx="488.0" cy="484.0" r="4.2"/><path class="op" d="M483.8 484.0H492.2M488.0 479.8V488.2"/>
+<rect class="orange-a" x="498.0" y="477.0" width="14" height="14" rx="2.5"/>
+<circle class="dot" cx="526.0" cy="484.0" r="2.8"/>
+<rect class="grp" x="535.0" y="472.0" width="126.0" height="24" rx="6"/>
+<rect class="orange-b" x="540.0" y="477.0" width="14" height="14" rx="2.5"/>
+<circle class="op" cx="564.0" cy="484.0" r="4.2"/><path class="op" d="M559.8 484.0H568.2M564.0 479.8V488.2"/>
+<rect class="orange-b" x="574.0" y="477.0" width="14" height="14" rx="2.5"/>
+<circle class="op" cx="598.0" cy="484.0" r="4.2"/><path class="op" d="M593.8 484.0H602.2M598.0 479.8V488.2"/>
+<rect class="orange-b" x="608.0" y="477.0" width="14" height="14" rx="2.5"/>
+<circle class="op" cx="632.0" cy="484.0" r="4.2"/><path class="op" d="M627.8 484.0H636.2M632.0 479.8V488.2"/>
+<rect class="orange-b" x="642.0" y="477.0" width="14" height="14" rx="2.5"/>
+</g>
+</svg>
