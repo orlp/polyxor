@@ -50,3 +50,6 @@ twox-hash = "2.1.4"
 
 [profile.release]
 lto = "thin"
+
+[lib]
+crate-type = ["staticlib"]

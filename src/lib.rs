@@ -96,7 +96,8 @@ impl core::fmt::Debug for PolyXor128 {
 impl PolyXor128 {
     /// The number of bytes of entropy [`from_entropy`](Self::from_entropy) needs.
     #[must_use]
-    pub const fn entropy_needed() -> usize {
+    #[unsafe(export_name = "polyxor_entropy_needed")]
+    pub const extern "C" fn entropy_needed() -> usize {
         OUTER_BLOCK_SIZE + 64
     }
 
@@ -418,6 +419,17 @@ impl<'a> PolyXor128Hasher<'a> {
     #[must_use]
     pub fn count(&self) -> u64 {
         self.count
+    }
+}
+
+/// Make the almost-xor-universal variant callable from C
+#[unsafe(no_mangle)]
+pub extern "C" fn polyxor(entropy: *const u8, message: *const u8, length: usize) -> u128 {
+    unsafe {
+        let family_member = PolyXor128::from_entropy(core::slice::from_raw_parts(entropy, PolyXor128::entropy_needed()));
+        let mut hasher = family_member.hasher();
+        hasher.update(core::slice::from_raw_parts(message, length));
+        hasher.finalize_raw()
     }
 }
 
